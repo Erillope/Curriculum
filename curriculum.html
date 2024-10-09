@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="desarrolador web, Python, Django,
@@ -11,6 +11,7 @@
 <body>
     <header>
         <h1>Erick Gariel Lorenzo López</h1>
+        <img src="https://placehold.co/200x200" alt="Foto propia">
         <p>Cargo: Estudiante</p>
         <p>Email: erillope@espol.com</p>
         <p>Teléfono: 0967835467</p>
@@ -30,18 +31,72 @@
         <section id="resumen">
             <h2>Resumen</h2>
             <p>Breve descripción de tus habilidades y experiencia.</p>
+            <ol>
+                <li>2019 - 2022</li>
+                <li>Desarrollador web</li>
+                <li>Acme Corporation</li>
+            </ol> 
+            <video width="640" height="360" controls>
+                <source src="./video.mp4" type="video/mp4">
+            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Inbg9Pcu7u8" allowfullscreen></iframe>
         </section>
             <section id="experiencia">
             <h2>Experiencia</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Empresa</th>
+                        <th>Puesto</th>
+                        <th>Años de experiencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Acme Corporation</td>
+                        <td>Desarrollador web</td>
+                    <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+                
         </section>
         <section id="educacion">
             <h2>Educación</h2>
         </section>
         <section id="habilidades">
             <h2>Habilidades</h2>
+            <ul>
+                <li>Habilidades</li>
+                <li>Desarrollo web</li>
+                <li>Diseño web</li>
+                <li>Mantenimiento de sitios web</li>
+            </ul>  
         </section>
         <section id="proyectos">
             <h2>Proyectos</h2>
+        </section>
+        <section name="Mapa" id="mapa">
+            <h2>Mapa</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d997.4528556003584!2d-78.47214594693942!3d-0.1065420117474771!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1728502227668!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section id="form">
+            <form>
+                <label for="Petición">Educación:</label>
+                <textarea id="peticion" name="peticion" rows="5"
+                required></textarea>
+                <label>Habilidades Técnicas:</label><br>
+                <input type="checkbox" name="habilidades" value="HTML"> HTML
+                <input type="checkbox" name="habilidades" value="CSS"> CSS
+                <input type="checkbox" name="habilidades" value="JavaScript">
+                JavaScript
+                <select id="intereses" name="intereses">
+                <option value="desarrollo">Desarrollo Web</option>
+                <option value="diseno">Diseño Gráfico</option>
+                <option value="marketing">Marketing Digital</option>
+                </select>
+                <button type="submit">Enviar</button>
+                </form>
         </section>
     </main>
         
