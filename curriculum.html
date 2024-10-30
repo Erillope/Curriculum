@@ -2,111 +2,154 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="desarrolador web, Python, Django,
-    React, JavaScript, backend, frontend, programación, desarrollo de
-    software, ingeniero de software, Java, Spring">
-    <meta name="author" content="Erick Lorenzo López">
-    <title>Curriculum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Currículum de Erick Lorenzo, desarrollador de software.">
+    <meta name="keywords" content="currículum, Erick Lorenzo, desarrollador de software, programación, python, java">
+    <meta name="author" content="Erick Lorenzo">
+    <meta name="copyright" content="© 2024 Erick Lorenzo">
+    <link rel="stylesheet" href="styles.css">
+    <title>Currículum de Erick Lorenzo - Desarrollador de Software</title>
 </head>
 <body>
-    <header>
-        <h1>Erick Gariel Lorenzo López</h1>
-        <img src="https://placehold.co/200x200" alt="Foto propia">
-        <p>Cargo: Estudiante</p>
-        <p>Email: erillope@espol.com</p>
-        <p>Teléfono: 0967835467</p>
-    </header>
 
-    <nav>
-        <ul>
-        <li><a href="#resumen">Resumen</a></li>
-        <li><a href="#experiencia">Experiencia</a></li>
-        <li><a href="#educacion">Educación</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        </ul>
-    </nav>
+    <section id="inicio" class="inicio">
+        <div class="inicio-contenenido">
+            <header class="header">
+                <p class="logo">Logo</p>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#resumen">Resumen</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </header>
+        </div>
+        <div class="info">
+            <h1>ERICK LORENZO</h1>
+            <h2>PROGRAMADOR, ESTUDIANTE</h2>
+        </div>
+        <div class="foto">
+            <img src="img/foto.png" alt="">
+        </div>
+    </section>
 
     <main>
-        <section id="resumen">
-            <h2>Resumen</h2>
-            <p>Breve descripción de tus habilidades y experiencia.</p>
-            <ol>
-                <li>2019 - 2022</li>
-                <li>Desarrollador web</li>
-                <li>Acme Corporation</li>
-            </ol> 
-            <video width="640" height="360" controls>
-                <source src="./video.mp4" type="video/mp4">
-            </video>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Inbg9Pcu7u8" allowfullscreen></iframe>
+        <section id="sobremi" class="sobremi">
+            <div class="sobremi-contenido">
+                <h2 class="titulo-seccion">Sobre mi</h2>
+                <h3>Detalles personales</h3>
+                <h4 class="especial">Soy estudiante de programación, me especializo en aplicaciones web, moviles y de escritorio</h4>
+            </div>
+            <div class="grid-sobremi">
+                <div class="sobremi-card">
+                    <div class="icon">👤</div>
+                    <h3>Perfil</h3>
+                    <p>Programador backend, web, movil en java o python</p>
+                </div>
+                <div class="sobremi-card">
+                    <div class="icon">📍</div>
+                    <h3>Ubicación</h3>
+                    <p>Guayaquil/Ecuador</p>
+                </div>
+                <div class="sobremi-card">
+                    <div class="icon">🏁</div>
+                    <h3>Intereses</h3>
+                    <p>Desarrollo web, dirección de proyectos</p>
+                </div>
+            </div>
         </section>
-            <section id="experiencia">
-            <h2>Experiencia</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Empresa</th>
-                        <th>Puesto</th>
-                        <th>Años de experiencia</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Acme Corporation</td>
-                        <td>Desarrollador web</td>
-                    <td>3</td>
-                    </tr>
-                </tbody>
-            </table>
-                
+
+        <section id="habilidades" class="habilidades">
+            <div class="habilidades-contenido">
+                <h2 class="titulo-seccion">Mis habilidades</h2>
+                <h3>Me especializo en</h3>
+            </div>
+            <div class="grid-habilidades">
+                <div class="habilidades-card">
+                    <span>HTML/CSS</span>
+                    <div class="barra">
+                        <div class="html-item"></div>
+                    </div>
+                    <span>70%</span>
+                </div>
+                <div class="habilidades-card">
+                    <span>PYTHON</span>
+                    <div class="barra">
+                        <div class="py-item"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+                <div class="habilidades-card">
+                    <span>JAVA</span>
+                    <div class="barra">
+                        <div class="java-item"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+                <div class="habilidades-card">
+                    <span>JAVASCRIPT</span>
+                    <div class="barra">
+                        <div class="javascript-item"></div>
+                    </div>
+                    <span>80%</span>
+                </div>
+            </div>
         </section>
-        <section id="educacion">
-            <h2>Educación</h2>
-        </section>
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Habilidades</li>
-                <li>Desarrollo web</li>
-                <li>Diseño web</li>
-                <li>Mantenimiento de sitios web</li>
-            </ul>  
-        </section>
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-        </section>
-        <section name="Mapa" id="mapa">
-            <h2>Mapa</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d997.4528556003584!2d-78.47214594693942!3d-0.1065420117474771!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1728502227668!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <section id="form">
-            <form>
-                <label for="Petición">Educación:</label>
-                <textarea id="peticion" name="peticion" rows="5"
-                required></textarea>
-                <label>Habilidades Técnicas:</label><br>
-                <input type="checkbox" name="habilidades" value="HTML"> HTML
-                <input type="checkbox" name="habilidades" value="CSS"> CSS
-                <input type="checkbox" name="habilidades" value="JavaScript">
-                JavaScript
-                <select id="intereses" name="intereses">
-                <option value="desarrollo">Desarrollo Web</option>
-                <option value="diseno">Diseño Gráfico</option>
-                <option value="marketing">Marketing Digital</option>
-                </select>
-                <button type="submit">Enviar</button>
-                </form>
+
+        <section id="resumen", class="resumen">
+            <div class="resumen-contenido">
+                <h2 class="titulo">Resumen</h2>
+                <h3>Mi preparación y experiencia</h3>
+                <div class="grid-experiencia">
+                    <div class="educacion-card">
+                        <span class="experiencia-titulo">Educación</span>
+                    </div>
+                    <div class="proyectos-card">
+                        <span class="experiencia-titulo">Proyectos</span>
+                    </div>
+                    <div class="educacion-detalle-card">
+                        <h3>2022 - 2024</h3>
+                        <h4>Estudiante de ing software</h4>
+                        <p>ESPOL</p>
+                    </div>
+                    <div class="educacion-detalle2-card">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                    </div>
+                    <div class="proyectos-detalle-card">
+                        <h3>2006 - 2010</h3>
+                        <h4>Backend</h4>
+                        <p>Programador Junior</p>
+                    </div>
+                    <div class="proyectos-detalle2-card">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-        
+
     <footer>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/erillope">LinkedIn</a></li>
-            <li><a href="https://github.com/erillope">GitHub</a></li>
-        </ul>
+        <section id="contacto" class="contacto">
+            <div class="contacto-contenido">
+                <h2 class="titulo">Contacto</h2>
+                <h3>Ponte en contacto ahora mismo!</h3>
+                <div class="grid-micontacto">
+                    <div class="contacto-card">
+                        <h2>
+                            <i class="fa-solid fa-phone"></i> Teléfono
+                        </h2>
+                        <span class="info-contacto">11 - 11223344</span>
+                    </div>
+                    <div class="contacto-card">
+                        <h2>
+                            <i class="fa-solid fa-envelope"></i> Correo
+                        </h2>
+                        <span class="info-contacto">erillope@espol.edu.ec</span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
-        
-        
 </body>
 </html>
