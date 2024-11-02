@@ -256,9 +256,8 @@ iframe {
     position: absolute;
     height: 100%;
     background-color: #8c00ff;
-    transition: width 2s ease;
 }
-
+/*
 .html-item{
     width: 70%;
 }
@@ -273,7 +272,7 @@ iframe {
 
 .javascript-item{
     width: 80%;
-}
+}*/
 
 .video-container {
     position: relative;
